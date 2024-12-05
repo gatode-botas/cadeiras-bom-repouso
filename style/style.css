@@ -1,0 +1,95 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header, main, footer{
+    width: 100%;
+    /*max-width: 1080px; */
+    margin: 0 auto;
+}
+
+/* Cabeçalho */
+
+header{
+    height: 60px;
+    background: firebrick;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 1080px;
+    margin-top: 0% auto;
+}
+
+nav img{
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+}
+
+nav ul{
+    display: flex;
+    justify-content:flex-end;
+}
+
+nav li{
+    list-style-type: none;
+}
+
+nav a{
+    color: azure;
+    font: 18px;
+    margin: 5px 10px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+/* conteudo principal */
+
+main{
+    height: 100%;
+    background-color: rgb(119, 119, 119)
+}
+
+#banner{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+#banner img{
+    width: 100%;
+    height: 400px;
+}
+
+#fotos{
+    text-align: center;
+    height: 400px;
+    margin: 0 auto;
+}
+
+#fotos img{
+    width: 350px;
+    height: 300px;
+}
+
+#fotos div{
+    display: flex;
+    justify-content: space-around;
+}
+/* Rodape */
+
+footer{
+    height: 50px;
+    background-color: rgb(233, 233, 227);
+    text-align: center;
+    padding-top: 25px;
+ }
+
+ footer p{
+    padding: 15px 0px;
+ }
